@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home">
+    </item>
+
+    <item android:title="Applications">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/NewGroup"
+                    android:icon="@drawable/newgroup"
+                    android:title="New Group"
+                    />
+                <item android:id="@+id/contacs"
+                    android:icon="@drawable/kontak"
+                    android:title="Contacs"
+                    />
+                <item android:id="@+id/call"
+                    android:icon="@drawable/call"
+                    android:title="Call"
+                    />
+                <item android:id="@+id/location"
+                    android:icon="@drawable/location"
+                    android:title="People Nearby"
+                    />
+                <item android:id="@+id/saved"
+                    android:icon="@drawable/saved"
+                    android:title="Saved Messages"
+                    />
+                <item android:id="@+id/setting"
+                    android:icon="@drawable/setting"
+                    android:title="Setting"
+                    />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Other">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/invite"
+                    android:icon="@drawable/invite"
+                    android:title="Invite Friends"
+                    />
+                <item android:id="@+id/Features"
+                    android:icon="@drawable/features"
+                    android:title="Telegram Features"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>
